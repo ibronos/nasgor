@@ -1,0 +1,23 @@
+.nav-link {
+    cursor: pointer;
+}
+
+label.nav-link {
+    margin-bottom: 0;
+}
+
+.modal.show {
+    display: block;
+}
+
+.image-btn-delete {
+    position: relative;
+}
+
+.custom-file-upload {
+    margin: 0;
+}
+
+.custom-file-upload input[type="file"] {
+    display: none;
+}

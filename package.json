@@ -1,0 +1,47 @@
+{
+  "name": "wapres",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-react": "^6.2.0",
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@prisma/client": "^5.7.1",
+    "axios": "^1.5.1",
+    "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.2",
+    "ckeditor5-custom-build": "file:ckeditor5",
+    "jsonwebtoken": "^9.0.2",
+    "next": "^14.0.4",
+    "next-auth": "^4.23.2",
+    "nodemailer": "^6.9.8",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-slugify": "^3.0.3",
+    "sass": "^1.69.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.4",
+    "@types/node": "^20",
+    "@types/nodemailer": "^6.4.14",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/uuid": "^9.0.7",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.5",
+    "prisma": "^5.7.1",
+    "typescript": "^5"
+  }
+}
