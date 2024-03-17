@@ -29,7 +29,7 @@ export const POST = async (request: NextRequest) =>{
     const expires = new Date().getTime() + EXPIRES_IN;
     const token = uuidv4();
     const resetUrl = request.headers.get('origin') + '/reset-password?token=' + token;
-    const emailFrom = "hello@wapres.id";
+    const emailFrom = "hello@nasgor.id";
 
     let htmlEmail = '<p>Visit this link to reset your password:</p>';
     htmlEmail += '<a href="'+ resetUrl +'">'+ resetUrl +'</a>';

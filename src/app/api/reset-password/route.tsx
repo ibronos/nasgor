@@ -8,7 +8,7 @@ const prisma = new PrismaClient();
 export const POST = async (request: NextRequest) =>{
 
     const body = await request.json();
-    const emailFrom = "hello@wapres.id";
+    const emailFrom = "hello@nasgor.id";
     const now = new Date().getTime();
 
     const pass = await prisma.password_Reset.findFirst({
